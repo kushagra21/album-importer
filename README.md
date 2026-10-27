@@ -144,6 +144,10 @@ Options: `--library`, `--records`, `--timeline`, `--year-folder "2027 - 2028"`, 
 
 ## Project layout
 
+See **[docs/DEVELOPMENT.md](docs/DEVELOPMENT.md)** for the status, design decisions, ground rules,
+how to test (including rendering screens without a display) and what's planned.
+
+
 | Path | What it is |
 |---|---|
 | `Sources/AlbumCore` | The engine: scanning and dates (`SourceScanner`, `DateReader`), naming (`Naming`), year folders and locks (`YearFolders`, `YearFolderSetup`), duplicate index (`LibraryIndex`, `ZipReader`, `Duplicates`), plan and dry run (`Plan`), copying (`Executor`), the whole run (`ImportJob`), records (`Records`, `TimelineSheet`, `XLSX`) |
